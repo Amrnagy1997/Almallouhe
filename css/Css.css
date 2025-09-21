@@ -266,7 +266,7 @@ ul {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url("/images/Asset\ 2-3.png");
+    background-image: url("images/Asset\ 2-3.png");
     background-repeat: no-repeat;
     background-size: 650px 387px;
     animation: size 0.5s linear;
@@ -345,7 +345,7 @@ ul {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url("/images/Asset\ 2-2.png");
+    background-image: url("images/Asset\ 2-2.png");
     background-repeat: no-repeat;
     background-size: 650px 387px;
     animation: size 0.5s linear;
@@ -355,7 +355,7 @@ ul {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url("/images/Asset\ 2-1.png");
+    background-image: url("images/Asset\ 2-1.png");
     background-repeat: no-repeat;
     background-size: 650px 387px;
     animation: size 0.5s linear;
@@ -562,7 +562,7 @@ ul {
     position: relative;
     text-align: center;
     background-color:#eae6dd ;
-    background-image: url(/images/1-1--1.png);
+    background-image: url(images/1-1--1.png);
     background-size: 260px 460px;
     background-repeat: no-repeat;
     background-position: right;
@@ -624,7 +624,7 @@ ul {
 .footer {
     position: relative;
     min-height: 35vh;
-    background-image: url(/images/footer.png);
+    background-image: url(images/footer.png);
 }
 .footer .scroll-up {
     position: absolute;
@@ -781,7 +781,7 @@ ul {
     height: 150px;
     background-color: #eae6dd;
     margin-bottom: 1px;
-    background-image: url(/images/Asset\ 34.png);
+    background-image: url(images/Asset\ 34.png);
     background-repeat:no-repeat;
     background-size: 800px 140px;
     background-position: right;
@@ -1020,7 +1020,7 @@ ul {
     grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
     gap: 80px;
     margin-right: 110px;
-    list-style:url(/images/steps-1.png);
+    list-style:url(images/steps-1.png);
 }
 @media(max-width:771px) {
     .lists .container .heads {
