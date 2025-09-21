@@ -1,0 +1,377 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Poppins" , sans-serif;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+    .container{
+        width: 750px;
+    }
+}
+/* medium */
+@media (min-width: 992px) {
+    .container{
+        width: 970px;
+    }
+}
+/* Large */
+@media (min-width: 1200px) {
+    .container{
+        width: 1170px;
+    }
+}
+/* Start Header */
+.page {
+    padding-bottom: 50px;
+}
+.page .headar {
+    margin-top: 15px;
+    background-image: url(./Icon/new2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 0 35px 0;
+    margin-top: 0;
+}
+.page .headar .navbarr {
+    width: 100%;
+}
+.page .headar .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.page .headar .container .logo img {
+    width: 30px;
+    height: 30px;
+}
+.page .headar .container ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+    margin-bottom: 0;
+    /* background: rgba(185, 190, 185, 0.2) */
+}
+.page .headar .container ul li {
+    margin: 0 30px 0 30px;
+    font-size: 22px;
+    font-family: zain;
+    display: block;
+}
+.page .headar .container ul li a:hover {
+    color: #ccc;
+}
+.page .headar .container ul li a {
+    color: #ffff;
+    text-decoration: none;
+}
+.page .headar .container .phonenumber a {
+    color: #ffff;
+    border-radius: 25px;
+    background-color: green;
+    padding: 5px 15px 5px 15px;
+}
+.page .headar .container .phonenumber a {
+    text-decoration: none;
+}
+.page .headar .container .phonenumber a i {
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+.page .headar .land {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.page .headar .land .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page .headar .land .text p {
+    font-size: 45px;
+    color: #ffff;
+    font-family: zain;
+}
+.page .headar .land .text span {
+    font-size: 45px;
+    color: #ffff;
+    font-family: zain;
+}
+.page .headar .land .links {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.page .headar .land .links a {
+    text-decoration: none;
+    margin-left: 15px;
+}
+.page .headar .land .links .one {
+    background-color: #ffff;
+    color: black;
+    font-size: 23px;
+    font-family: zain;
+    border-radius: 25px;
+    padding: 8px 30px 8px 30px;
+}
+.page .headar .land .links .two {
+    color: #ffff;
+    border: 1px solid #ccc;
+    font-size: 23px;
+    font-family: zain;
+    border-radius: 25px;
+    padding: 8px 30px 8px 30px;
+    display: flex;
+    align-items: center;
+}
+.page .headar .land .links .two i {
+    margin-left: 10px;
+}
+.page .headar .land .links .two:hover {
+    background-color: #ffff;
+    color: black;
+}
+/* End Header */
+/* Start Services */
+.page .service {
+    background-color: #ffffff;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    margin: auto;
+    width: 90%;
+    border-radius: 40px;
+    margin-top: -50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.page .service .container {
+    display: flex;
+    width: 80%!important;
+}
+.page .service .text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 450px;
+    justify-content: center;
+    margin-left: 50px;
+}
+.page .service .text-one  {
+    font-family: zain;
+    font-size: 35px;
+}
+.page .service .text-one::before {
+    content: '';
+    position: absolute;
+    background-color: #8ed4b8;
+    width: 30px;
+    height: 2px;
+    top: 38%;
+    right:-45px;
+}
+.page .service .text-two {
+    color: #767676;
+    font-size: 23px;
+}
+.page .service .three {
+    text-decoration: none;
+    color: #ffff;
+    background-color: #2c272d;
+    max-width: 200px;
+    border-radius: 25px;
+    padding: 8px 30px 8px 30px;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+}
+.page .service .serv  {
+    /* max-width:800px; */
+    width: 100%;
+}
+.page .service .serv .boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(330px, 1fr));
+    grid-column-gap: 0px;
+}
+.page .service .serv .boxes .box {
+    width: 300px;
+    border-radius: 25px;
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;    
+    padding: 30px 15px 30px 15px;
+    margin-top: 25px;
+
+}
+.page .service .serv .boxes .box .fa-cart-shopping {
+    font-size: 50px;
+    color: #ffff;
+    background-color: #91d6ba;
+    border-radius: 10px;
+    margin-left: auto;
+    padding: 10px;
+    font-size: 40px;
+}
+.page .service .serv .boxes .box .fa-snapchat {
+    font-size: 50px;
+    color: #ffff;
+    background-color: #91d6ba;
+    border-radius: 10px;
+    margin-left: auto;
+    padding: 10px;
+    font-size: 40px;
+}
+.page .service .serv .boxes .box .fa-computer {
+    font-size: 50px;
+    color: #ffff;
+    background-color: #91d6ba;
+    border-radius: 10px;
+    margin-left: auto;
+    padding: 10px;
+    font-size: 40px;
+}
+.page .service .serv .boxes .box .fa-whatsapp {
+    font-size: 50px;
+    color: #ffff;
+    background-color: #91d6ba;
+    border-radius: 10px;
+    margin-left: auto;
+    padding: 10px;
+    font-size: 40px;
+}
+.page .service .serv .boxes .box span {
+    color: black;
+    font-family: zain;
+    font-size: 27px;
+}
+.page .service .serv .boxes .box p {
+    color: #696969;
+    font-family: zain;
+    font-size: 21px;
+    padding-top: 10px;
+}
+.page .service .serv .boxes .box a {
+    color: #a2a2a2;
+}
+.page .service .serv .boxes .box a i {
+    margin-left: 5px;
+}
+/* End Services */
+/* Start Cover */
+.page .cover {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: auto;
+    width: 90%;
+    border-radius: 40px;
+    background-color: #2d262d;
+}
+.page .cover .container {
+    display: flex;
+    justify-content: space-around;
+}
+.page .cover .text {
+    width: 600px;
+}
+.page .cover .text .top {
+    display: flex;
+    align-items: center;
+}
+.page .cover .text span {
+    background-color: #4c635d;
+    width: 30px;
+    height: 3px;
+    margin-left: 10px;
+    font-family: zain;
+}
+.page .cover .text .who {
+    color: #4c635d;
+    font-size: 30px;
+    margin: auto 0 auto 0;
+}
+.page .cover .text p {
+    color: #ffff;
+    font-size: 27px;
+    font-family: zain;
+    margin-top: 30px;
+}
+.page .cover .links {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.page .cover .links a {
+    text-decoration: none;
+    margin-left: 15px;
+}
+.page .cover .links .one {
+    background-color: #ffff;
+    color: black;
+    font-size: 23px;
+    font-family: zain;
+    border-radius: 25px;
+    padding: 8px 30px 8px 30px;
+}
+.page .cover .links .two {
+    color: #ffff;
+    border: 1px solid #ccc;
+    font-size: 23px;
+    font-family: zain;
+    border-radius: 25px;
+    padding: 8px 30px 8px 30px;
+    display: flex;
+    align-items: center;
+}
+.page .cover .links .two i {
+    margin-left: 10px;
+}
+/* End Cover */
+/* Strt Logos */
+.page .logos {
+    background-color: #eeeeec;
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px 0 50px 0;
+}
+.page .logos .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%!important;
+}
+.page .logos .container img {
+    width: 500px;
+    margin-left: 55px;
+}
+/* End Logos */
